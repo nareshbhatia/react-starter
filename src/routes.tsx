@@ -1,6 +1,6 @@
 import { HomePage } from './routes/home';
 import { RootLayout } from './routes/root';
-import type { RouteObject } from 'react-router-dom';
+import type { RouteObject } from 'react-router';
 
 export const routes: RouteObject[] = [
   {
