@@ -1,0 +1,27 @@
+.rs-font-weight-bold {
+  font-weight: var(--rs-font-weight-bold);
+}
+
+.rs-heading-lg {
+  font-size: var(--rs-font-size-6);
+  line-height: var(--rs-line-height-6);
+  font-weight: var(--rs-font-weight-medium);
+}
+
+.rs-link {
+  cursor: pointer;
+  color: var(--rs-color-text-secondary);
+}
+
+.rs-link:hover {
+  color: var(--rs-color-text-neutral-alpha);
+}
+
+.rs-link.active {
+  color: var(--rs-color-text-default);
+}
+
+.rs-size-24 {
+  width: var(--ai-dimension-24);
+  height: var(--ai-dimension-24);
+}

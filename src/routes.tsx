@@ -1,6 +1,7 @@
 import { RootLayout } from './app/root';
 import { HomePage } from './app/routes/home/route';
-import { RoutePath } from './utils/RoutePath';
+import { SettingsPage } from './app/routes/settings/route';
+import { RoutePath } from './config/RoutePath';
 import type { RouteObject } from 'react-router';
 
 export const routes: RouteObject[] = [
@@ -10,6 +11,10 @@ export const routes: RouteObject[] = [
       {
         path: RoutePath.Home,
         element: <HomePage />,
+      },
+      {
+        path: RoutePath.Settings,
+        element: <SettingsPage />,
       },
     ],
   },

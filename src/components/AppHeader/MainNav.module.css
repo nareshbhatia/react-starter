@@ -1,0 +1,19 @@
+.mainNav {
+  display: flex;
+  align-items: center;
+  gap: var(--rs-gap-xl);
+}
+
+.appIds {
+  display: flex;
+  align-items: center;
+  gap: var(--rs-gap-md);
+}
+
+.navLinks {
+  /* flex items-center gap-4 text-sm */
+  display: flex;
+  align-items: center;
+  gap: var(--rs-gap-xl);
+  font-size: var(--rs-font-size-2);
+}

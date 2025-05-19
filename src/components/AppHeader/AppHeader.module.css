@@ -1,0 +1,16 @@
+.appHeader {
+  /* w-full border-b */
+  width: 100%;
+  border-bottom-width: var(--rs-width-border-default);
+}
+
+.container {
+  /* container flex h-14 items-center justify-between */
+  margin: auto;
+  padding: 0 var(--rs-padding-xl);
+
+  display: flex;
+  height: var(--rs-dimension-56);
+  align-items: center;
+  justify-content: space-between;
+}

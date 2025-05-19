@@ -1,0 +1,111 @@
+:root {
+  /* ----- Primitive Tokens ----- */
+  --rs-dimension-0: 0px;
+  --rs-dimension-1: 1px;
+  --rs-dimension-2: 0.125rem;
+  --rs-dimension-4: 0.25rem;
+  --rs-dimension-6: 0.375rem;
+  --rs-dimension-8: 0.5rem;
+  --rs-dimension-10: 0.625rem;
+  --rs-dimension-12: 0.75rem;
+  --rs-dimension-14: 0.875rem;
+  --rs-dimension-16: 1rem;
+  --rs-dimension-20: 1.25rem;
+  --rs-dimension-24: 1.5rem;
+  --rs-dimension-28: 1.75rem;
+  --rs-dimension-32: 2rem;
+  --rs-dimension-36: 2.25rem;
+  --rs-dimension-40: 2.5rem;
+  --rs-dimension-44: 2.75rem;
+  --rs-dimension-48: 3rem;
+  --rs-dimension-56: 3.5rem;
+
+  --rs-font-family-sans: Inter;
+  --rs-font-family-mono: 'Source Code Pro';
+
+  --rs-font-weight-light: 300;
+  --rs-font-weight-regular: 400;
+  --rs-font-weight-medium: 500;
+  --rs-font-weight-bold: 700;
+
+  --rs-font-size-1: 0.75rem;
+  --rs-font-size-2: 0.875rem;
+  --rs-font-size-3: 1rem;
+  --rs-font-size-4: 1.125rem;
+  --rs-font-size-5: 1.25rem;
+  --rs-font-size-6: 1.5rem;
+  --rs-font-size-7: 1.75rem;
+  --rs-font-size-8: 2.1875rem;
+  --rs-font-size-9: 3.75rem;
+
+  --rs-line-height-1: 1rem;
+  --rs-line-height-2: 1.25rem;
+  --rs-line-height-3: 1.5rem;
+  --rs-line-height-4: 1.625rem;
+  --rs-line-height-5: 1.75rem;
+  --rs-line-height-6: 1.875rem;
+  --rs-line-height-7: 2.25rem;
+  --rs-line-height-8: 2.5rem;
+  --rs-line-height-9: 3.75rem;
+
+  --rs-radius-none: 0px;
+  --rs-radius-sm: 0.125rem;
+  --rs-radius-md: 0.25rem;
+  --rs-radius-full: 9999px;
+
+  --rs-color-neutral-1: #111113;
+  --rs-color-neutral-2: #18191b;
+  --rs-color-neutral-3: #212225;
+  --rs-color-neutral-4: #272a2d;
+  --rs-color-neutral-5: #2e3135;
+  --rs-color-neutral-6: #363a3f;
+  --rs-color-neutral-7: #43484e;
+  --rs-color-neutral-8: #5a6169;
+  --rs-color-neutral-9: #696e77;
+  --rs-color-neutral-10: #777b84;
+  --rs-color-neutral-11: #b0b4ba;
+  --rs-color-neutral-12: #edeef0;
+
+  --rs-color-neutral-a1: rgba(0, 0, 0, 0);
+  --rs-color-neutral-a2: rgba(216, 244, 246, 0.04);
+  --rs-color-neutral-a3: rgba(221, 234, 248, 0.08);
+  --rs-color-neutral-a4: rgba(211, 237, 248, 0.11);
+  --rs-color-neutral-a5: rgba(217, 237, 254, 0.15);
+  --rs-color-neutral-a6: rgba(214, 235, 253, 0.19);
+  --rs-color-neutral-a7: rgba(217, 237, 255, 0.25);
+  --rs-color-neutral-a8: rgba(217, 237, 255, 0.36);
+  --rs-color-neutral-a9: rgba(223, 235, 253, 0.43);
+  --rs-color-neutral-a10: rgba(229, 237, 253, 0.48);
+  --rs-color-neutral-a11: rgba(241, 247, 254, 0.71);
+  --rs-color-neutral-a12: rgba(252, 253, 255, 0.94);
+
+  --rs-color-neutral-contrast: #ffffff;
+
+  /* ----- Semantic Tokens ----- */
+  --rs-color-bg-default: var(--rs-color-neutral-1);
+  --rs-color-bg-secondary: var(--rs-color-neutral-2);
+
+  --rs-color-border-default: var(--rs-color-neutral-6);
+  --rs-color-border-strong: var(--rs-color-neutral-7);
+  --rs-color-border-hover: var(--rs-color-neutral-8);
+  --rs-color-border-focus: var(--rs-color-neutral-12);
+
+  --rs-color-text-default: var(--rs-color-neutral-12);
+  --rs-color-text-secondary: var(--rs-color-neutral-11);
+  --rs-color-text-neutral-alpha-rgb: var(--rs-color-neutral-a11);
+
+  --rs-width-border-default: var(--rs-dimension-1);
+  --rs-width-border-focus: var(--rs-dimension-2);
+
+  --rs-gap-xs: var(--rs-dimension-4);
+  --rs-gap-sm: var(--rs-dimension-6);
+  --rs-gap-md: var(--rs-dimension-8);
+  --rs-gap-lg: var(--rs-dimension-12);
+  --rs-gap-xl: var(--rs-dimension-16);
+
+  --rs-padding-xs: var(--rs-dimension-4);
+  --rs-padding-sm: var(--rs-dimension-6);
+  --rs-padding-md: var(--rs-dimension-8);
+  --rs-padding-lg: var(--rs-dimension-12);
+  --rs-padding-xl: var(--rs-dimension-16);
+}

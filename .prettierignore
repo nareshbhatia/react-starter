@@ -4,5 +4,6 @@
 /dist/
 /node_modules/
 /src/generated/
+/src/styles/reset.css
 /storybook-static/
 /public/mockServiceWorker.js

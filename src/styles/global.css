@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+}
+
+.rs-page {
+  margin: auto;
+  padding: 0 var(--rs-padding-xl);
+
+  flex: 1;
+  width: 100%;
+}
+
+.rs-page__container {
+  padding: var(--rs-padding-xl) 0;
+}
